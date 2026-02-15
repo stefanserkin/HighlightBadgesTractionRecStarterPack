@@ -1,7 +1,6 @@
-# HighlightBadgesTractionRecStarterPack
+# HighlightBadges Traction Rec Starter Pack
 
-Add a brief description of this project here, in Markdown format.
-It will be shown on the main page of the project's GitHub repository.
+A collection of highlight badges for common Traction Rec use-cases.
 
 ## Development
 
