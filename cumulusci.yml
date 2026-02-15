@@ -58,3 +58,16 @@ tasks:
     run_tests:
         options:
             required_org_code_coverage_percent: 85
+
+flows:
+    config_dev:
+        steps:
+            10:
+                task: configure_scratch_user
+            11:
+                task: assign_badges_admin_permset
+
+orgs:
+    scratch:
+        build:
+            config_file: orgs/build.json

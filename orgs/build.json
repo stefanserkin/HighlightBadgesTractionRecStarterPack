@@ -1,6 +1,6 @@
 {
-  "orgName": "HighlightBadgesTractionRecStarterPack - Release Test Org",
-  "edition": "Enterprise",
+  "orgName": "HighlightBadgesTractionRecStarterPack - Build Org",
+  "edition": "Developer",
   "settings": {
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true
@@ -16,6 +16,9 @@
       "sessionSettings": {
         "forceRelogin": false
       }
+    },
+    "languageSettings": {
+      "enableTranslationWorkbench": true
     },
     "enhancedNotesSettings": {
       "enableEnhancedNotes": true
