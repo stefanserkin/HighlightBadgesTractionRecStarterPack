@@ -96,7 +96,7 @@
     </values>
     <values>
         <field>bdgs__Source_Detail_Fields__c</field>
-        <value xsi:type="xsd:string">TREX1__Contact__c,TREX1__coe_Course_Option__c,Location__c,TREX1__Status__c,TREX1__Start_Date__c</value>
+        <value xsi:type="xsd:string">TREX1__Contact__c,TREX1__coe_Course_Option__c,Location_Name__c,TREX1__Status__c,TREX1__Start_Date__c</value>
     </values>
     <values>
         <field>bdgs__Source_Object__c</field>
