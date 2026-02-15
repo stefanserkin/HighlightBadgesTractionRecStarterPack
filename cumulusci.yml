@@ -7,6 +7,8 @@ project:
         api_version: '63.0'
     dependencies:
         - github: 'https://github.com/stefanserkin/highlight-badges'
+        - version_id: 04t1U0000058cL3QAI
+        - version_id: 04t5G000003RUjoQAG
     git:
         default_branch: 'main'
     source_format: sfdx
