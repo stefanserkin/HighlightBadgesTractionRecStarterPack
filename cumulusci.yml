@@ -5,6 +5,8 @@ project:
         name: HighlightBadgesTractionRecStarterPack
         namespace: serk
         api_version: '63.0'
+    dependencies:
+        - github: 'https://github.com/stefanserkin/highlight-badges'
     git:
         default_branch: 'main'
     source_format: sfdx
