@@ -56,7 +56,7 @@
     </values>
     <values>
         <field>bdgs__Filter_Criteria__c</field>
-        <value xsi:type="xsd:string">TREX1__Status__c IN (&apos;Active&apos;,&apos;Pending Cancel&apos;,&apos;Pending Hold&apos;,&apos;Pending Transfer&apos;) AND TREX1__Category_Name__c IN (&apos;Individual Memberships&apos;,&apos;Family Memberships&apos;,&apos;Complimentary Memberships&apos;,&apos;Third Party Memberships&apos;,&apos;Verdesian Resident Memberships&apos;,&apos;Water Polo&apos;)</value>
+        <value xsi:type="xsd:string">RecordType.DeveloperName = &apos;Standard_Membership&apos; AND TREX1__Status__c IN (&apos;Active&apos;,&apos;Pending Cancel&apos;,&apos;Pending Hold&apos;,&apos;Pending Transfer&apos;)</value>
     </values>
     <values>
         <field>bdgs__Highlight_Badge_Definition_Name__c</field>

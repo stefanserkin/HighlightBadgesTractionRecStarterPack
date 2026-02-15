@@ -56,7 +56,7 @@
     </values>
     <values>
         <field>bdgs__Filter_Criteria__c</field>
-        <value xsi:type="xsd:string">Program_Type__c = &apos;Programs&apos; AND TREX1__Registration_Status__c IN (&apos;Active&apos;,&apos;Pending Withdrawal&apos;,&apos;Pending Transfer&apos;) AND Id IN (SELECT TREX1__coe_Registration__c FROM TREX1__Course_Option_Enrollment__c WHERE TREX1__Waitlist_Status__c IN (&apos;Accepted&apos;,NULL))</value>
+        <value xsi:type="xsd:string">TREX1__Registration_Status__c IN (&apos;Active&apos;,&apos;Pending Withdrawal&apos;,&apos;Pending Transfer&apos;) AND Id IN (SELECT TREX1__coe_Registration__c FROM TREX1__Course_Option_Enrollment__c WHERE TREX1__Waitlist_Status__c IN (&apos;Accepted&apos;,&apos;&apos;))</value>
     </values>
     <values>
         <field>bdgs__Highlight_Badge_Definition_Name__c</field>

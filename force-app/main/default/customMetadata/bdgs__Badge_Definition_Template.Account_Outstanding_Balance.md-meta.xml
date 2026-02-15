@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <label>Contact: Unsigned Member Contract</label>
+    <label>Account: Outstanding Balance</label>
     <protected>false</protected>
     <values>
         <field>bdgs__Active__c</field>
@@ -12,7 +12,7 @@
     </values>
     <values>
         <field>bdgs__Alert_Message__c</field>
-        <value xsi:type="xsd:string">This contact has an outstanding membership waiver</value>
+        <value xsi:type="xsd:string">Account Balance: {!TREX1__Outstanding_Account_Balance__c}</value>
     </values>
     <values>
         <field>bdgs__Alert_Type__c</field>
@@ -24,11 +24,11 @@
     </values>
     <values>
         <field>bdgs__Background_Color__c</field>
-        <value xsi:type="xsd:string">#9e1818</value>
+        <value xsi:type="xsd:string">#db0909</value>
     </values>
     <values>
         <field>bdgs__Common_Ancestor_Object__c</field>
-        <value xsi:type="xsd:string">Contact</value>
+        <value xsi:type="xsd:string">Account</value>
     </values>
     <values>
         <field>bdgs__Confetti_Size__c</field>
@@ -44,11 +44,11 @@
     </values>
     <values>
         <field>bdgs__Description__c</field>
-        <value xsi:type="xsd:string">Contact: Unsigned Member Contract</value>
+        <value xsi:type="xsd:string">Contact: Account Outstanding Balance</value>
     </values>
     <values>
         <field>bdgs__Display_Object__c</field>
-        <value xsi:type="xsd:string">Contact</value>
+        <value xsi:type="xsd:string">Account</value>
     </values>
     <values>
         <field>bdgs__Display_to_Ancestor_Path__c</field>
@@ -56,11 +56,11 @@
     </values>
     <values>
         <field>bdgs__Filter_Criteria__c</field>
-        <value xsi:type="xsd:string">Unsigned_Membership_Waiver__c = true</value>
+        <value xsi:type="xsd:string">TREX1__Outstanding_Account_Balance__c &gt; 0</value>
     </values>
     <values>
         <field>bdgs__Highlight_Badge_Definition_Name__c</field>
-        <value xsi:type="xsd:string">Contact: Unsigned Member Contract</value>
+        <value xsi:type="xsd:string">Account: Outstanding Balance</value>
     </values>
     <values>
         <field>bdgs__Highlight_Badges_Starter_Pack__c</field>
@@ -68,7 +68,7 @@
     </values>
     <values>
         <field>bdgs__Icon_Name__c</field>
-        <value xsi:type="xsd:string">utility:lock</value>
+        <value xsi:type="xsd:string">utility:error</value>
     </values>
     <values>
         <field>bdgs__Include_Label_in_Toast__c</field>
@@ -80,11 +80,11 @@
     </values>
     <values>
         <field>bdgs__Label__c</field>
-        <value xsi:type="xsd:string">Unsigned Membership Waiver</value>
+        <value xsi:type="xsd:string">Account has a Balance</value>
     </values>
     <values>
         <field>bdgs__Limit__c</field>
-        <value xsi:type="xsd:double">5.0</value>
+        <value xsi:type="xsd:double">1.0</value>
     </values>
     <values>
         <field>bdgs__Order_By__c</field>
@@ -96,15 +96,15 @@
     </values>
     <values>
         <field>bdgs__Source_Detail_Fields__c</field>
-        <value xsi:type="xsd:string">TREX1__Start_Date__c,TREX1__Status__c,TREX1__memb_Type__c,TREX1__Category_Name__c</value>
+        <value xsi:type="xsd:string">Name,TREX1__Outstanding_Account_Balance__c,TREX1__Unapplied_Credit_Amount__c,TREX1__Balance__c,TREX1__Balance_Payment_Exempt__c</value>
     </values>
     <values>
         <field>bdgs__Source_Object__c</field>
-        <value xsi:type="xsd:string">TREX1__Membership__c</value>
+        <value xsi:type="xsd:string">Account</value>
     </values>
     <values>
         <field>bdgs__Source_to_Ancestor_Path__c</field>
-        <value xsi:type="xsd:string">TREX1__Contact__c</value>
+        <value xsi:type="xsd:string">Id</value>
     </values>
     <values>
         <field>bdgs__Toast_Mode__c</field>

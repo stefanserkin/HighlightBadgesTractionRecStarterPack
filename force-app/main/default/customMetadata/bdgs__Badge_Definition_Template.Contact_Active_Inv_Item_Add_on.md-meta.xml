@@ -44,7 +44,7 @@
     </values>
     <values>
         <field>bdgs__Description__c</field>
-        <value xsi:type="xsd:string">Contact: Active Locker Add-on</value>
+        <value xsi:type="xsd:string">Contact: Active Inv Item Add-on</value>
     </values>
     <values>
         <field>bdgs__Display_Object__c</field>
@@ -80,7 +80,7 @@
     </values>
     <values>
         <field>bdgs__Label__c</field>
-        <value xsi:type="xsd:string">{!TREX1__Inventory_Group__c}: {!TREX1__Inventory_Item__c}</value>
+        <value xsi:type="xsd:string">{!Product_Name__c} ({!Inventory_Item_Name__c})</value>
     </values>
     <values>
         <field>bdgs__Limit__c</field>
@@ -96,7 +96,7 @@
     </values>
     <values>
         <field>bdgs__Source_Detail_Fields__c</field>
-        <value xsi:type="xsd:string">TREX1__Status__c,TREX1__Inventory_Group__c,TREX1__Inventory_Item__c</value>
+        <value xsi:type="xsd:string">TREX1__Status__c,Product_Name__c,TREX1__Inventory_Group__c,TREX1__Inventory_Item__c</value>
     </values>
     <values>
         <field>bdgs__Source_Object__c</field>

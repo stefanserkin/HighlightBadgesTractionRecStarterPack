@@ -56,7 +56,7 @@
     </values>
     <values>
         <field>bdgs__Filter_Criteria__c</field>
-        <value xsi:type="xsd:string">TREX1__Waitlist_Status__c NOT IN (&apos;Waitlisted&apos;,&apos;Pending Confirmation&apos;,&apos;Expired&apos;,&apos;Rejected&apos;) AND TREX1__Status__c = &apos;Withdrawn&apos;</value>
+        <value xsi:type="xsd:string">TREX1__Waitlist_Status__c IN (&apos;Accepted&apos;,&apos;&apos;) AND TREX1__Status__c = &apos;Withdrawn&apos;</value>
     </values>
     <values>
         <field>bdgs__Highlight_Badge_Definition_Name__c</field>

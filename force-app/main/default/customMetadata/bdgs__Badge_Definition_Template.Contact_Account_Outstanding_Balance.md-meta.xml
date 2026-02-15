@@ -96,7 +96,7 @@
     </values>
     <values>
         <field>bdgs__Source_Detail_Fields__c</field>
-        <value xsi:type="xsd:string">Name,TREX1__Outstanding_Account_Balance__c</value>
+        <value xsi:type="xsd:string">Name,TREX1__Outstanding_Account_Balance__c,TREX1__Unapplied_Credit_Amount__c,TREX1__Balance__c,TREX1__Balance_Payment_Exempt__c</value>
     </values>
     <values>
         <field>bdgs__Source_Object__c</field>

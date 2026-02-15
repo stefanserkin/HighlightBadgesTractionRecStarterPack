@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-    <label>Contact: Membership on Freeze</label>
+    <label>Contact: Outstanding Contract</label>
     <protected>false</protected>
     <values>
         <field>bdgs__Active__c</field>
@@ -8,11 +8,11 @@
     </values>
     <values>
         <field>bdgs__Alert_Frequency__c</field>
-        <value xsi:type="xsd:string">Always</value>
+        <value xsi:type="xsd:string">Once Per Session</value>
     </values>
     <values>
         <field>bdgs__Alert_Message__c</field>
-        <value xsi:nil="true"/>
+        <value xsi:type="xsd:string">This contact has an outstanding contract</value>
     </values>
     <values>
         <field>bdgs__Alert_Type__c</field>
@@ -20,11 +20,11 @@
     </values>
     <values>
         <field>bdgs__Alert__c</field>
-        <value xsi:type="xsd:boolean">false</value>
+        <value xsi:type="xsd:boolean">true</value>
     </values>
     <values>
         <field>bdgs__Background_Color__c</field>
-        <value xsi:type="xsd:string">#acf2fa</value>
+        <value xsi:type="xsd:string">#9e1818</value>
     </values>
     <values>
         <field>bdgs__Common_Ancestor_Object__c</field>
@@ -44,7 +44,7 @@
     </values>
     <values>
         <field>bdgs__Description__c</field>
-        <value xsi:type="xsd:string">Contact: Membership on Freeze</value>
+        <value xsi:type="xsd:string">Contact: Outstanding Contract</value>
     </values>
     <values>
         <field>bdgs__Display_Object__c</field>
@@ -56,11 +56,11 @@
     </values>
     <values>
         <field>bdgs__Filter_Criteria__c</field>
-        <value xsi:type="xsd:string">RecordType.DeveloperName = &apos;Standard_Membership&apos; AND TREX1__Status__c = &apos;On Hold&apos;</value>
+        <value xsi:type="xsd:string">Unsigned_Membership_Waiver__c = true</value>
     </values>
     <values>
         <field>bdgs__Highlight_Badge_Definition_Name__c</field>
-        <value xsi:type="xsd:string">Contact: Membership on Freeze</value>
+        <value xsi:type="xsd:string">Contact: Unsigned Member Contract</value>
     </values>
     <values>
         <field>bdgs__Highlight_Badges_Starter_Pack__c</field>
@@ -68,7 +68,7 @@
     </values>
     <values>
         <field>bdgs__Icon_Name__c</field>
-        <value xsi:type="xsd:string">utility:frozen</value>
+        <value xsi:type="xsd:string">utility:lock</value>
     </values>
     <values>
         <field>bdgs__Include_Label_in_Toast__c</field>
@@ -76,11 +76,11 @@
     </values>
     <values>
         <field>bdgs__Label_Color__c</field>
-        <value xsi:nil="true"/>
+        <value xsi:type="xsd:string">#ffffff</value>
     </values>
     <values>
         <field>bdgs__Label__c</field>
-        <value xsi:type="xsd:string">{!TREX1__Category_Name__c} Membership on Freeze</value>
+        <value xsi:type="xsd:string">Unsigned Membership Waiver</value>
     </values>
     <values>
         <field>bdgs__Limit__c</field>
@@ -92,15 +92,15 @@
     </values>
     <values>
         <field>bdgs__Sort_Order__c</field>
-        <value xsi:type="xsd:double">32.0</value>
+        <value xsi:type="xsd:double">10.0</value>
     </values>
     <values>
         <field>bdgs__Source_Detail_Fields__c</field>
-        <value xsi:type="xsd:string">TREX1__Freeze_Start_Date__c,TREX1__Freeze_End_Date__c,TREX1__Status__c,TREX1__memb_Type__c,TREX1__Category_Name__c</value>
+        <value xsi:type="xsd:string">TREX1__caf_Template__c,TREX1__Status__c,TREX1__Type__c,TREX1__Valid_For__c,CreatedDate,TREX1__Transaction__c,TREX1__Membership__c,TREX1__Registration__c</value>
     </values>
     <values>
         <field>bdgs__Source_Object__c</field>
-        <value xsi:type="xsd:string">TREX1__Membership__c</value>
+        <value xsi:type="xsd:string">TREX1__Contract_and_Form__c</value>
     </values>
     <values>
         <field>bdgs__Source_to_Ancestor_Path__c</field>
