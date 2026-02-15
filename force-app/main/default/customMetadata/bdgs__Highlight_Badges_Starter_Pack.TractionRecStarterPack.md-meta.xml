@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Traction Rec Starter Pack</label>
+    <protected>false</protected>
+    <values>
+        <field>bdgs__Author__c</field>
+        <value xsi:type="xsd:string">SerkinSolutions</value>
+    </values>
+    <values>
+        <field>bdgs__Documentation_URL__c</field>
+        <value xsi:type="xsd:string">https://quip.com/WqvQAXwzjWHY/Highlight-Badges-Traction-Rec-Starter-Pack</value>
+    </values>
+    <values>
+        <field>bdgs__Icon_Name__c</field>
+        <value xsi:type="xsd:string">utility:activity</value>
+    </values>
+    <values>
+        <field>bdgs__Imported__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+</CustomMetadata>

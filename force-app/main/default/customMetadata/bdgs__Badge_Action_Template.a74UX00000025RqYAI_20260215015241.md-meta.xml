@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>a74UX00000025RqYAI_20260215015241</label>
+    <protected>false</protected>
+    <values>
+        <field>bdgs__Active__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>bdgs__Badge_Definition_Template__c</field>
+        <value xsi:type="xsd:string">Contact_Account_Outstanding_Balance</value>
+    </values>
+    <values>
+        <field>bdgs__Description__c</field>
+        <value xsi:type="xsd:string">Navigate to the source record page</value>
+    </values>
+    <values>
+        <field>bdgs__Flow_API_Name__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>bdgs__Flow_Type__c</field>
+        <value xsi:type="xsd:string">Autolaunched Flow</value>
+    </values>
+    <values>
+        <field>bdgs__Highlight_Badge_Action_Name__c</field>
+        <value xsi:type="xsd:string">View Source Record</value>
+    </values>
+    <values>
+        <field>bdgs__Icon_Name__c</field>
+        <value xsi:type="xsd:string">utility:preview</value>
+    </values>
+    <values>
+        <field>bdgs__Icon_Position__c</field>
+        <value xsi:type="xsd:string">Left</value>
+    </values>
+    <values>
+        <field>bdgs__Include_Display_Record_ID__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>bdgs__Include_Source_Record_ID__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>bdgs__Label__c</field>
+        <value xsi:type="xsd:string">View Account</value>
+    </values>
+    <values>
+        <field>bdgs__Navigation_Type__c</field>
+        <value xsi:type="xsd:string">Source Record</value>
+    </values>
+    <values>
+        <field>bdgs__Open_in_New_Tab__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>bdgs__Record_Type__c</field>
+        <value xsi:type="xsd:string">Navigation</value>
+    </values>
+    <values>
+        <field>bdgs__Sort_Order__c</field>
+        <value xsi:type="xsd:double">10.0</value>
+    </values>
+    <values>
+        <field>bdgs__URL__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>bdgs__Variant__c</field>
+        <value xsi:type="xsd:string">neutral</value>
+    </values>
+</CustomMetadata>

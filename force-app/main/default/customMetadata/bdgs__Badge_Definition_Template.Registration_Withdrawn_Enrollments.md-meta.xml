@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Registration: Withdrawn Enrollments</label>
+    <protected>false</protected>
+    <values>
+        <field>bdgs__Active__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>bdgs__Alert_Frequency__c</field>
+        <value xsi:type="xsd:string">Always</value>
+    </values>
+    <values>
+        <field>bdgs__Alert_Message__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>bdgs__Alert_Type__c</field>
+        <value xsi:type="xsd:string">Modal</value>
+    </values>
+    <values>
+        <field>bdgs__Alert__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>bdgs__Background_Color__c</field>
+        <value xsi:type="xsd:string">#FF9F9F</value>
+    </values>
+    <values>
+        <field>bdgs__Common_Ancestor_Object__c</field>
+        <value xsi:type="xsd:string">TREX1__Registration__c</value>
+    </values>
+    <values>
+        <field>bdgs__Confetti_Size__c</field>
+        <value xsi:type="xsd:string">Small</value>
+    </values>
+    <values>
+        <field>bdgs__Confetti_Volume__c</field>
+        <value xsi:type="xsd:string">Few</value>
+    </values>
+    <values>
+        <field>bdgs__Confetti__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>bdgs__Description__c</field>
+        <value xsi:type="xsd:string">Registration: Withdrawn Enrollments</value>
+    </values>
+    <values>
+        <field>bdgs__Display_Object__c</field>
+        <value xsi:type="xsd:string">TREX1__Registration__c</value>
+    </values>
+    <values>
+        <field>bdgs__Display_to_Ancestor_Path__c</field>
+        <value xsi:type="xsd:string">Id</value>
+    </values>
+    <values>
+        <field>bdgs__Filter_Criteria__c</field>
+        <value xsi:type="xsd:string">TREX1__Waitlist_Status__c NOT IN (&apos;Waitlisted&apos;,&apos;Pending Confirmation&apos;,&apos;Expired&apos;,&apos;Rejected&apos;) AND TREX1__Status__c = &apos;Withdrawn&apos;</value>
+    </values>
+    <values>
+        <field>bdgs__Highlight_Badge_Definition_Name__c</field>
+        <value xsi:type="xsd:string">Registration: Withdrawn Enrollments</value>
+    </values>
+    <values>
+        <field>bdgs__Highlight_Badges_Starter_Pack__c</field>
+        <value xsi:type="xsd:string">TractionRecStarterPack</value>
+    </values>
+    <values>
+        <field>bdgs__Icon_Name__c</field>
+        <value xsi:type="xsd:string">utility:close</value>
+    </values>
+    <values>
+        <field>bdgs__Include_Label_in_Toast__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>bdgs__Label_Color__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>bdgs__Label__c</field>
+        <value xsi:type="xsd:string">{!TREX1__Status__c}: {!Course_Option_Name__c}</value>
+    </values>
+    <values>
+        <field>bdgs__Limit__c</field>
+        <value xsi:type="xsd:double">200.0</value>
+    </values>
+    <values>
+        <field>bdgs__Order_By__c</field>
+        <value xsi:type="xsd:string">TREX1__Start_Date__c</value>
+    </values>
+    <values>
+        <field>bdgs__Sort_Order__c</field>
+        <value xsi:type="xsd:double">41.0</value>
+    </values>
+    <values>
+        <field>bdgs__Source_Detail_Fields__c</field>
+        <value xsi:type="xsd:string">TREX1__Contact__c,TREX1__coe_Course_Option__c,Location__c,TREX1__Status__c,TREX1__Start_Date__c</value>
+    </values>
+    <values>
+        <field>bdgs__Source_Object__c</field>
+        <value xsi:type="xsd:string">TREX1__Course_Option_Enrollment__c</value>
+    </values>
+    <values>
+        <field>bdgs__Source_to_Ancestor_Path__c</field>
+        <value xsi:type="xsd:string">TREX1__coe_Registration__c</value>
+    </values>
+    <values>
+        <field>bdgs__Toast_Mode__c</field>
+        <value xsi:type="xsd:string">Dismissible</value>
+    </values>
+    <values>
+        <field>bdgs__Toast_Variant__c</field>
+        <value xsi:type="xsd:string">Info</value>
+    </values>
+</CustomMetadata>

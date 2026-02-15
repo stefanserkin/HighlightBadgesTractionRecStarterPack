@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Contact: Authorized Pickup</label>
+    <protected>false</protected>
+    <values>
+        <field>bdgs__Active__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>bdgs__Alert_Frequency__c</field>
+        <value xsi:type="xsd:string">Always</value>
+    </values>
+    <values>
+        <field>bdgs__Alert_Message__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>bdgs__Alert_Type__c</field>
+        <value xsi:type="xsd:string">Modal</value>
+    </values>
+    <values>
+        <field>bdgs__Alert__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>bdgs__Background_Color__c</field>
+        <value xsi:type="xsd:string">#BA0095</value>
+    </values>
+    <values>
+        <field>bdgs__Common_Ancestor_Object__c</field>
+        <value xsi:type="xsd:string">Contact</value>
+    </values>
+    <values>
+        <field>bdgs__Confetti_Size__c</field>
+        <value xsi:type="xsd:string">Small</value>
+    </values>
+    <values>
+        <field>bdgs__Confetti_Volume__c</field>
+        <value xsi:type="xsd:string">Few</value>
+    </values>
+    <values>
+        <field>bdgs__Confetti__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>bdgs__Description__c</field>
+        <value xsi:type="xsd:string">Contact: Authorized Pickup</value>
+    </values>
+    <values>
+        <field>bdgs__Display_Object__c</field>
+        <value xsi:type="xsd:string">Contact</value>
+    </values>
+    <values>
+        <field>bdgs__Display_to_Ancestor_Path__c</field>
+        <value xsi:type="xsd:string">Id</value>
+    </values>
+    <values>
+        <field>bdgs__Filter_Criteria__c</field>
+        <value xsi:type="xsd:string">(TREX1__Start_Date__c = NULL OR TREX1__Start_Date__c &lt;= TODAY) AND (TREX1__End_Date__c = NULL OR TREX1__End_Date__c &gt;= TODAY)</value>
+    </values>
+    <values>
+        <field>bdgs__Highlight_Badge_Definition_Name__c</field>
+        <value xsi:type="xsd:string">Contact: Authorized Pickup</value>
+    </values>
+    <values>
+        <field>bdgs__Highlight_Badges_Starter_Pack__c</field>
+        <value xsi:type="xsd:string">TractionRecStarterPack</value>
+    </values>
+    <values>
+        <field>bdgs__Icon_Name__c</field>
+        <value xsi:type="xsd:string">standard:customers</value>
+    </values>
+    <values>
+        <field>bdgs__Include_Label_in_Toast__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>bdgs__Label_Color__c</field>
+        <value xsi:type="xsd:string">#FFFFFF</value>
+    </values>
+    <values>
+        <field>bdgs__Label__c</field>
+        <value xsi:type="xsd:string">Authorized Pickup: {!Authorized_Pickup_Full_Name__c}</value>
+    </values>
+    <values>
+        <field>bdgs__Limit__c</field>
+        <value xsi:type="xsd:double">200.0</value>
+    </values>
+    <values>
+        <field>bdgs__Order_By__c</field>
+        <value xsi:type="xsd:string">Authorized_Pickup_Full_Name__c ASC</value>
+    </values>
+    <values>
+        <field>bdgs__Sort_Order__c</field>
+        <value xsi:type="xsd:double">1.0</value>
+    </values>
+    <values>
+        <field>bdgs__Source_Detail_Fields__c</field>
+        <value xsi:type="xsd:string">TREX1__Authorized_Pickup__c,TREX1__Dependent__c,TREX1__Start_Date__c,TREX1__End_Date__c</value>
+    </values>
+    <values>
+        <field>bdgs__Source_Object__c</field>
+        <value xsi:type="xsd:string">TREX1__Authorized_Pickup__c</value>
+    </values>
+    <values>
+        <field>bdgs__Source_to_Ancestor_Path__c</field>
+        <value xsi:type="xsd:string">TREX1__Dependent__c</value>
+    </values>
+    <values>
+        <field>bdgs__Toast_Mode__c</field>
+        <value xsi:type="xsd:string">Dismissible</value>
+    </values>
+    <values>
+        <field>bdgs__Toast_Variant__c</field>
+        <value xsi:type="xsd:string">Info</value>
+    </values>
+</CustomMetadata>
