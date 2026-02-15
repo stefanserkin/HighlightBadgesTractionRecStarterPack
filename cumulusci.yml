@@ -19,7 +19,7 @@ tasks:
         class_path: cumulusci.tasks.apex.anon.AnonymousApexTask
         options:
             apex: >
-                PermissionSet ps = [SELECT Id FROM PermissionSet WHERE Name = 'bdgs__Highlight_Badges_Starter_Packs_Admin' LIMIT 1];
+                PermissionSet ps = [SELECT Id FROM PermissionSet WHERE Name = 'Highlight_Badges_Starter_Packs_Admin' LIMIT 1];
                 insert new PermissionSetAssignment(
                     PermissionSetId = ps.Id,
                     AssigneeId = UserInfo.getUserId()
