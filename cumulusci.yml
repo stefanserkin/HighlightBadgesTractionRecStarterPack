@@ -1,0 +1,26 @@
+minimum_cumulusci_version: '4.8.1'
+project:
+    name: HighlightBadgesTractionRecStarterPack
+    package:
+        name: HighlightBadgesTractionRecStarterPack
+        namespace: serk
+        api_version: '63.0'
+    git:
+        default_branch: 'main'
+    source_format: sfdx
+
+tasks:
+    robot:
+        options:
+            suites: robot/HighlightBadgesTractionRecStarterPack/tests
+            options:
+                outputdir: robot/HighlightBadgesTractionRecStarterPack/results
+
+    robot_testdoc:
+        options:
+            path: robot/HighlightBadgesTractionRecStarterPack/tests
+            output: robot/HighlightBadgesTractionRecStarterPack/doc/HighlightBadgesTractionRecStarterPack_tests.html
+
+    run_tests:
+        options:
+            required_org_code_coverage_percent: 85
