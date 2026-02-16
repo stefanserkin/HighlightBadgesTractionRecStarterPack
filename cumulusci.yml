@@ -31,7 +31,7 @@ tasks:
         options:
             apex: >
                 insert new TREX1__Trigger_Bypass__c(Name = 'Account', TREX1__Active__c = true, TREX1__Expiry__c = Datetime.now().addHours(1), 
-                    TREX1__User_Ids__c = u.Id, TREX1__Notes__c = 'Account Bypass', TREX1__SObject__c = 'Account');
+                    TREX1__User_Ids__c = String.valueOf(UserInfo.getUserId()), TREX1__Notes__c = 'Account Bypass', TREX1__SObject__c = 'Account');
 
     configure_scratch_user:
         description: Updates the default user to eastern time
