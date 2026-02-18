@@ -80,7 +80,7 @@
     </values>
     <values>
         <field>bdgs__Label__c</field>
-        <value xsi:type="xsd:string">Authorized Pickup: {!Authorized_Pickup_Full_Name__c}</value>
+        <value xsi:type="xsd:string">Authorized Pickup: {!serk__Authorized_Pickup_Full_Name__c}</value>
     </values>
     <values>
         <field>bdgs__Limit__c</field>
@@ -88,7 +88,7 @@
     </values>
     <values>
         <field>bdgs__Order_By__c</field>
-        <value xsi:type="xsd:string">Authorized_Pickup_Full_Name__c ASC</value>
+        <value xsi:type="xsd:string">serk__Authorized_Pickup_Full_Name__c ASC</value>
     </values>
     <values>
         <field>bdgs__Sort_Order__c</field>

@@ -80,7 +80,7 @@
     </values>
     <values>
         <field>bdgs__Label__c</field>
-        <value xsi:type="xsd:string">{!TREX1__Category_Name__c} Package ({!Bookable_Credits__c} of {!TREX1__Stored_Value__c} Remaining)</value>
+        <value xsi:type="xsd:string">{!TREX1__Category_Name__c} Package ({!TREX1__Total_Value__c} of {!TREX1__Stored_Value__c} Remaining)</value>
     </values>
     <values>
         <field>bdgs__Limit__c</field>

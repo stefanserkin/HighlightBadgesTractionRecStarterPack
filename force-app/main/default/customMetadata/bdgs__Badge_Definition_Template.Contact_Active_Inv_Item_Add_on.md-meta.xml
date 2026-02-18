@@ -80,7 +80,7 @@
     </values>
     <values>
         <field>bdgs__Label__c</field>
-        <value xsi:type="xsd:string">{!Product_Name__c} ({!Inventory_Item_Name__c})</value>
+        <value xsi:type="xsd:string">{!serk__Product_Name__c} ({!serk__Inventory_Item_Name__c})</value>
     </values>
     <values>
         <field>bdgs__Limit__c</field>
@@ -96,7 +96,7 @@
     </values>
     <values>
         <field>bdgs__Source_Detail_Fields__c</field>
-        <value xsi:type="xsd:string">TREX1__Status__c,Product_Name__c,TREX1__Inventory_Group__c,TREX1__Inventory_Item__c</value>
+        <value xsi:type="xsd:string">TREX1__Status__c,serk__Product_Name__c,TREX1__Inventory_Group__c,TREX1__Inventory_Item__c</value>
     </values>
     <values>
         <field>bdgs__Source_Object__c</field>
@@ -104,7 +104,7 @@
     </values>
     <values>
         <field>bdgs__Source_to_Ancestor_Path__c</field>
-        <value xsi:type="xsd:string">Contact_ID__c</value>
+        <value xsi:type="xsd:string">serk__Contact_ID__c</value>
     </values>
     <values>
         <field>bdgs__Toast_Mode__c</field>
